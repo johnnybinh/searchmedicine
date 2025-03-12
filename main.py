@@ -35,7 +35,7 @@ input_split = input.split("\n")
 if submitted:
     for name in input_split:
         payload = {
-            "filterText": name,
+            "filterText": name.strip(),
             "SoDangKyThuoc": {},
             "KichHoat": True,
             "skipCount": 0,
