@@ -22,7 +22,7 @@ url = "https://dichvucong.dav.gov.vn/api/services/app/soDangKy/GetAllPublicServe
 st.title("Medicine Search Agent")
 with st.form("input_from"):
     input = st.text_area(
-        label="Enter names(Comma Seperated)",
+        label="Enter names(Line Seperated)",
         placeholder="Trazimera\nBavencio\nEnterobella  ",
     )
     submitted = st.form_submit_button("Search")
